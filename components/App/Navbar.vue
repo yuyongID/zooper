@@ -42,20 +42,20 @@ const headerRef = ref(null);
 const { styles } = useFixedHeader(headerRef);
 
 const items = [
-  { name: "Home", path: "/", icon: "solar:home-smile-outline" },
+  { name: "首页", path: "/", icon: "solar:home-smile-outline" },
   {
-    name: "Projects",
+    name: "友情链接",
     path: "/projects",
     icon: "solar:folder-with-files-outline",
   },
   {
-    name: "Articles",
+    name: "文章",
     path: "/articles",
     icon: "solar:document-add-outline",
   },
   { name: "Lab", path: "/lab", icon: "heroicons:beaker" },
   {
-    name: "What's in my bag?",
+    name: "店铺",
     path: "/whats-in-my-bag",
     icon: "solar:backpack-outline",
   },

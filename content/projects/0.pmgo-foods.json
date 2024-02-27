@@ -1,0 +1,8 @@
+{
+  "name": "B 站的跳转广告",
+  "url": "https://game.bilibili.com/nslg/?msource=1&source=trackadf_b223fe90b3fa4e32b62ac794a066e098&gameID=9564",
+  "description": "这是一个点击之后就会跳转到 B 站视频下挂广告的链接",
+  "thumbnail": "/projects/tvflix.png",
+  "status": "WIP",
+  "opensource": true
+}

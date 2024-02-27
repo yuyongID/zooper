@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">FIND ME ON</h2>
+    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">我的频道</h2>
     <div class="space-y-5">
       <NuxtLink
         v-for="link in links"
@@ -24,6 +24,11 @@
 
 <script lang="ts" setup>
 const links = [
+  {
+    name: "Bilibili",
+    url: "https://space.bilibili.com/1845434732",
+    icon: "mdi:tv",
+  },
   {
     name: "Twitter",
     url: "https://twitter.com/fayazara",
